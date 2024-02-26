@@ -1,0 +1,14 @@
+path: ../datasets/cropPhoto
+train: train/images #126 pic
+val: valid/images #37 pic
+test: test/images #19 pic
+
+nc: 14
+names: ['Orange_Bad', 'Orange_Good', 'Pomegranate_Bad', 'Pomegranate_Good', 'apple_bad', 'apple_good', 'banana_bad', 'banana_good', 'fruits', 'guaba_good', 'guava_bad', 'guava_good', 'lime_bad', 'lime_good']
+
+roboflow:
+  workspace: fruitclassification-dqola
+  project: fruitclassification-jx6nu
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fruitclassification-dqola/fruitclassification-jx6nu/dataset/1

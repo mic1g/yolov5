@@ -1,0 +1,9 @@
+path: ../datasets/cropPhoto
+train: train/images #126 pic
+val: valid/images #37 pic
+test: valid/test #19 pic
+
+
+names: 
+  0: photo
+
